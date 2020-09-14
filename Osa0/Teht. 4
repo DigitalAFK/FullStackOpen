@@ -1,11 +1,10 @@
-
-selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/new_note
+HTTP GET selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/new_note
 palvelin-->selain: HTML-koodi
-selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/notes
+HTTP GET selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/notes
 palvelin-->selain: HTML-koodi
-selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/main.css
+HTTP GET selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/main.css
 palvelin-->selain: main.css
-selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/main.js
+HTTP GET selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/main.js
 palvelin-->selain: main.js
-selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/data.json
-palvelin-->selain: data.json
+HTTP GET selain->palvelin: https://studies.cs.helsinki.fi/exampleapp/data.json
+palvelin-->selain: [{content: "note", date: "2020-09-14"}, ...]
